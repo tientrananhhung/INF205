@@ -1,0 +1,381 @@
+body{
+    background: rgb(249, 249, 249);
+}
+.homenews{
+    background: white;
+}
+.homenews h2{
+    background: black;
+    text-transform: uppercase;
+    color: white;
+    padding: 12px;
+    font-size: 22px;
+}
+.homenews ul{
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    margin-left: -30px;
+}
+.homenews li{
+    display: block;
+    border-bottom: 1px solid #ededed;
+    background: #fff;
+    margin: 0 10px 0 0;
+    padding: 8px 0;
+}
+.homenews li:nth-child(3){
+    border-bottom: none;
+}
+.homenews li a{
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+}
+.homenews li a:hover h3{
+    color: rgb(89, 147, 245);
+}
+.homenews li img{
+    float: right;
+    width: 100px;
+    height: 57px;
+    margin-left: 10px;
+}
+.homenews h3{
+    display: block;
+    overflow: hidden;
+    height: 36px;
+    line-height: 1.3em;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.home-sp{
+    margin-bottom: 10px;
+}
+.homenews span{
+    font-size: 12px;
+    color: #999;
+    margin-right: 10px;
+}
+.homeproduct a{
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    text-decoration: none;
+    z-index: 1;
+    transition: 0.5s;
+}
+.homeproduct a:hover{
+    opacity: 0;
+    transition: 0.5s;
+}
+.homeproduct a:hover h3{
+    color: #0099e6;
+}
+.homeproduct img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.homeproduct h3{
+    display: block;
+    line-height: 1.3em;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 0 10px 5px;
+}
+.homeproduct strong{
+    float: left;
+    font-size: 14px;
+    color: #c10017;
+    margin: 0 9px 5px;
+}
+.homeproduct .installment{
+    background: #ff6a00;
+}
+.homeproduct .shockprice{
+    background: #3fb846;
+}
+.homeproduct .new{
+    background: #288ad6;
+}
+.homeproduct label{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 600;
+    background: #fff;
+    border-radius: 3px;
+    padding: 0 5px 0 8px;
+    margin: 1px 10px 0 5px;
+    height: 18px;
+    float: right;
+}
+.bginfo{
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    height: 100%;
+    padding: 2% 0;
+    font-size: 12px;
+    color: #fff;
+    line-height: 16px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 15px;
+    bottom: 0;
+    transition-duration: .7s;
+    opacity: 1;
+    z-index: -1;
+    transition: 0.5s;
+}
+.bginfo span{
+    display: block;
+    color: #333;
+    padding: 2px 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.bginfo .name{
+    display: block;
+    line-height: 1.3em;
+    font-size: 16px;
+    color: #0099e6;
+    font-weight: 600;
+    padding: 0;
+    margin: 0 10px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70%;
+}
+.footer{
+    background-color: #fff;
+}
+.colfoot{
+    list-style: none;
+    padding-left: 0;
+}
+.colfoot a{
+    display: block;
+    color: #288ad6;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 5px;
+}
+.colfoot a:hover{
+    text-decoration: none;
+    color: #666666;
+}
+.colfoot p{
+    display: block;
+    padding-top: 5px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #666;
+}
+.colfoot p a{
+    display: inline;
+    font-weight: 600;
+    color: #333;
+    padding: 0 5px;
+}
+#tien{
+    color: #c10017;
+    display: inline;
+}
+.mobile-card{
+    background: #fff;
+    padding: 10px;
+    height: 160px;
+}
+.mobile-card h3{
+    font-size: 15px;
+}
+.chuc-nang{
+    margin-bottom: 10px;
+}
+.btn-card{
+    margin-left: 5px;
+}
+.helplink span{
+    display: inline-block;
+    vertical-align: middle;
+    color: #333;
+}
+.helplink a{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #288ad6;
+    padding: 0 5px;
+}
+.helplink a:hover{
+    text-decoration: none;
+    color: #666666;
+}
+.login-admin{
+    margin-top: 30px;
+}
+.login-admin h1{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.login-form{
+    border-radius: 5px;
+    height: 250px;
+    width: 100%;
+    background: #fff;
+    padding: 10px 30px;
+    text-align: center;
+}
+.title-login-admin{
+    color: #388ad6;
+    text-align: left;
+    font-size: 30px;
+}
+.input-login{
+    margin: 20px 0;
+}
+
+.san-pham h2{
+    font-size: 24px;
+    color: #333;
+}
+.gia-ban-san-pham h4{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 24px;
+    color: #d0021b;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.bang-khuyen-mai{
+    border-radius: 15px;
+}
+.bang-khuyen-mai td{
+    padding: 5px;
+}
+.bang-khuyen-mai td ul{
+    padding-left: 20px;
+}
+.bang-khuyen-mai td b{
+    font-size: 14px;
+    color: #333;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.ct{
+    font-size: 13px;
+}
+.ct ul{
+    display: block;
+    overflow: hidden;
+    margin: 5px -20px;
+}
+.thong-so-ky-thuat span{
+    vertical-align: top;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+#exampleModalLongTitle{
+    display: block;
+    font-size: 18px;
+    color: #666;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 1.3em;
+}
+.thong-tin-chi-tiet td{
+    background: #fff;
+    width: 1%;
+    border-bottom: 1px solid #dadada;
+}
+.thong-tin-chi-tiet h3{
+    display: block;
+    background: #f2f2f2;
+    font-size: 16px;
+    font-weight: 700;
+    color: #c0392b;
+    padding: 8px;
+    border-bottom: 1px solid #999;
+}
+.thong-tin-san-pham{
+    width: 100%;
+}
+.thong-tin-san-pham img{
+    width: 90% !important;
+}
+.delGH{
+    background: rgb(231, 231, 231);
+    border: 0px;
+    color: #2b83fc;
+}
+.delGH:hover{
+    color: #1968d6;
+    margin-top: 2px;
+}
+.delGH:hover span{
+    top: 1px;
+    left: 1px;
+}
+.bt-up-down{
+    height: 30px;
+}
+.bt-up-down bt-up{
+    float: left;
+}
+.bt-up-down button{
+    width: 30px;
+    padding: 7px;
+    height: 100%;
+}
+.bt-up-down input{
+    width: 50px;
+    height: 100%;
+}
+
+
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #343a40;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}

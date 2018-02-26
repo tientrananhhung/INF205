@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            function gioHang(idND, maSP) {
+                $.ajax({
+
+                    type: "POST",
+
+                    url: "http://localhost:8080/tientahpd01815_Assignment/GioHangServlet",
+
+                    data: {
+                        'idND': [{'txt': 'test'}],
+                        'maSP': maSP
+                    },
+
+                    success: function (data) {
+
+                        console.log(data);
+                        $('#txt1').val(data[0]);
+                        $('#txt2').val(data[1]);
+                        $('#txt3').val(data[2]);
+                        $('#txt4').val(data[3]);
+                        $('#txt5').val(data[4]);
+                    }
+
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <button onclick="gioHang('', 'bdc')">Click</button> 
+        <input type="text" id="txt1"/>
+        <input type="text" id="txt2" />
+        <input type="text" id="txt3" />
+        <input type="text" id="txt4" />
+        <input type="text" id="txt5" />
+    </body>
+</html>
